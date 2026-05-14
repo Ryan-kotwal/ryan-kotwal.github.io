@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ryan Kotwal | Projects</title>
     <link rel="stylesheet" href="./css/myhomewebsite.css">
 </head>
+
 <body>
     <h1>Projects</h1>
     <nav id="navbar">
         <div id="nav-container">
             <a href="myhomewebsite.html" id="link-home">Home</a>
             <a href="myexperiencewebsite.html" id="link-exp">Experience</a>
-            <a href="#projects" id="link-proj" style="color: black;background: white;border-radius: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">Projects</a>
+            <a href="#projects" id="link-proj"
+                style="color: black;background: white;border-radius: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">Projects</a>
             <a href="myblogwebsite.html" id="link-blog">Blog</a>
             <a href="mycontactwebsite.html" id="link-contact">Contact</a>
         </div>
@@ -25,18 +28,36 @@
                     <h2>Active Directory Security Project</h2>
                     <span class="date">Sep 2025 - Oct 2025</span>
                 </div>
-                <img src="../images/splunk-proj.png" alt="Active Directory Dashboard" class="project-image">
-                <p>Designed and implemented a robust security monitoring and automated response system focused on the Active Directory (AD) environment. By ingesting AD security events into <strong>Splunk</strong>, I established a centralized platform for threat detection. I developed a suite of custom alerts that triggered an automated <strong>SOAR workflow in Shuffle</strong>, engineered to automatically disable compromised user accounts upon detection. This significantly reduced MTTR while providing instantaneous notifications via Slack and email.</p>
+                <figure>
+                    <img src="../images/splunk-proj.png" alt="Active Directory Dashboard" class="project-image">
+                    <figcaption class="image-citation">Personal Project by Ryan Kotwal</figcaption>
+                </figure>
+                <p>Designed and implemented a robust security monitoring and automated response system focused on the
+                    Active Directory (AD) environment. By ingesting AD security events into <strong>Splunk</strong>, I
+                    established a centralized platform for threat detection. I developed a suite of custom alerts that
+                    triggered an automated <strong>SOAR workflow in Shuffle</strong>, engineered to automatically
+                    disable compromised user accounts upon detection. This significantly reduced MTTR while providing
+                    instantaneous notifications via Slack and email.</p>
             </section>
+
             <section class="project-card">
                 <div class="exp-header">
                     <h2>SOC Automation Lab</h2>
                     <span class="date">May 2025 - Jul 2025</span>
                 </div>
-                <img src="../images/wazuh-proj.png" alt="Wazuh Workflow" class="project-image">
-                <p>Configured <strong>Wazuh</strong> as a SIEM system on a virtual machine to analyze over 1,000 logs and identify anomalies. I developed custom detection rules and implemented a <strong>Shuffle SOAR</strong> workflow to automate responses, such as blocking suspicious IPs and validating file hashes through <strong>VirusTotal</strong>. This platform was integrated with <strong>TheHive</strong> to generate actionable alerts and streamline the security operations process through automated analyst notifications.</p>
+                <figure>
+                    <img src="../images/wazuh-proj.png" alt="Wazuh Workflow" class="project-image">
+                    <figcaption class="image-citation">Personal Project by Ryan Kotwal</figcaption>
+                </figure>
+                <p>Configured <strong>Wazuh</strong> as a SIEM system on a virtual machine to analyze over 1,000 logs
+                    and identify anomalies. I developed custom detection rules and implemented a <strong>Shuffle
+                        SOAR</strong> workflow to automate responses, such as blocking suspicious IPs and validating
+                    file hashes through <strong>VirusTotal</strong>. This platform was integrated with
+                    <strong>TheHive</strong> to generate actionable alerts and streamline the security operations
+                    process through automated analyst notifications.</p>
             </section>
         </section>
     </main>
 </body>
+
 </html>
