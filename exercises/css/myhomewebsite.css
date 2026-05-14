@@ -31,7 +31,11 @@ body {
     gap: 15px;
 }
 
-#link-home,#link-exp,#link-proj,#link-blog,#link-contact {
+#link-home,
+#link-exp,
+#link-proj,
+#link-blog,
+#link-contact {
     text-decoration: none;
     color: #757575;
     font-size: 14px;
@@ -44,11 +48,18 @@ body {
     width: 100%;
     margin-top: 50px;
 }
+
 #main-content.wide {
     max-width: 900px;
 }
 
-#home, #work-exp, #research, #certifications, #achievements, #technical-skills,.project-card {
+#home,
+#work-exp,
+#research,
+#certifications,
+#achievements,
+#technical-skills,
+.project-card {
     background: #ffffff;
     border-radius: 24px;
     padding: 40px;
@@ -57,7 +68,13 @@ body {
     margin-bottom: 20px;
 }
 
-#home:hover, #work-exp:hover, #research:hover, #certifications:hover, #achievements:hover, #technical-skills:hover, .project-card:hover{
+#home:hover,
+#work-exp:hover,
+#research:hover,
+#certifications:hover,
+#achievements:hover,
+#technical-skills:hover,
+.project-card:hover {
     transform: translateY(-5px);
 }
 
@@ -89,7 +106,7 @@ p {
 
 
 #work-exp {
-    grid-row: 1/2; 
+    grid-row: 1/2;
     grid-column: 1;
 }
 
@@ -97,16 +114,18 @@ p {
     grid-row: 2/3;
     grid-column: 1;
 }
-#certifications{
+
+#certifications {
     grid-row: 3/4;
     grid-column: 1;
 }
+
 #achievements {
     grid-row: 4/5;
     grid-column: 1;
 }
 
-#technical-skills{
+#technical-skills {
     grid-row: 5/6;
     grid-column: 1;
 }
@@ -157,15 +176,15 @@ p {
     width: 100%;
     height: auto;
     max-height: 400px;
-    object-fit: cover; 
+    object-fit: cover;
     border-radius: 16px;
-    margin: 20px 0; 
-    border: 1px solid #eee; 
+    margin: 20px 0;
+    border: 1px solid #eee;
 }
 
 #contact-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr; 
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
     width: 100%;
 }
@@ -259,4 +278,18 @@ p {
     #blog-grid {
         grid-template-columns: 1fr;
     }
+}
+
+.image-citation {
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    font-style: italic;
+    text-align: center;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
 }
